@@ -1,0 +1,2 @@
+# AsymmetrikOCR
+Business Card OCR
