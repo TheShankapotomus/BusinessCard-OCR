@@ -1,0 +1,38 @@
+[
+    {
+        "document": "ASYMMETRIK LTD\nMike Smith\nSenior Software Engineer\n(410)555-1234\nmsmith@asymmetrik.com",
+        "output": "Name: Mike Smith\nPhone: 4105551234\nEmail: msmith@asymmetrik.com"
+    },
+    {
+        "document": "Foobar Technologies\nAnalytic Developer\nLisa Haung\n1234 Sentry Road\nColumbia, MD 12345\nPhone: 410-555-1234\nFax: 410-555-4321\nlisa.haung@foobartech.com",
+        "output": "Name: Lisa Haung\nPhone: 4105551234\nEmail: lisa.haung@foobartech.com"
+    },
+    {
+        "document": "Arthur Wilson\nSoftware Engineer\nDecision & Security Technologies\nABC Technologies\n123 North 11th Street\nSuite 229\nArlington, VA 22209\nTel: +1 (703) 555-1259\nFax: +1 (703) 555-1200\nawilson@abctech.com",
+        "output": "Name: Arthur Wilson\nPhone: 17035551259\nEmail: awilson@abctech.com"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

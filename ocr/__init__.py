@@ -1,3 +1,3 @@
-from .parser import BusinessCardParser as Parser
+from .parser import BusinessCardParser
 
-__all__ = ['Parser']
+__all__ = ['BusinessCardParser']
