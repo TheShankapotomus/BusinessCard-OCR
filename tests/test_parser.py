@@ -1,5 +1,5 @@
-import json
 import unittest
+import yaml
 from os.path import dirname, realpath
 from ocr import BusinessCardParser
 
@@ -13,16 +13,15 @@ class TestParser(unittest.TestCase):
         del self.parser
 
     def test_asymmetrik(self):
-        self._check_examples(f"{dirname(realpath(__file__))}/examples/asymmetrik.json")
+        self._check_examples(f"{dirname(realpath(__file__))}/samples/asymmetrik.yaml")
 
     def test_custom(self):
-
-        self._check_examples(f"{dirname(realpath(__file__))}/examples/custom.json")
+        self._check_examples(f"{dirname(realpath(__file__))}/samples/custom.yaml")
 
     def _check_examples(self, file):
 
         with open(file, 'r') as f:
-            examples = json.load(f)
+            examples = yaml.safe_load(f).values()
 
         for e in examples:
 

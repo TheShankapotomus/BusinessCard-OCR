@@ -1,0 +1,40 @@
+Example1:
+    document: "ASYMMETRIK LTD\n\
+               Mike Smith\n\
+               Senior Software Engineer\n\
+               (410)555-1234\n\
+               msmith@asymmetrik.com"
+
+    output:   "Name: Mike Smith\n\
+               Phone: 4105551234\n\
+               Email: msmith@asymmetrik.com"
+
+Example2:
+    document: "Foobar Technologies\n\
+               Analytic Developer\n\
+               Lisa Haung\n\
+               1234 Sentry Road\n\
+               Columbia, MD 12345\n\
+               Phone: 410-555-1234\n\
+               Fax: 410-555-4321\n\
+               lisa.haung@foobartech.com"
+
+    output:   "Name: Lisa Haung\n\
+               Phone: 4105551234\n\
+               Email: lisa.haung@foobartech.com"
+
+Example3:
+    document: "Arthur Wilson\n\
+               Software Engineer\n\
+               Decision & Security Technologies\n\
+               ABC Technologies\n\
+               123 North 11th Street\n\
+               Suite 229\n\
+               Arlington, VA 22209\n\
+               Tel: +1 (703) 555-1259\n\
+               Fax: +1 (703) 555-1200\n\
+               awilson@abctech.com"
+
+    output:   "Name: Arthur Wilson\n\
+               Phone: 17035551259\n\
+               Email: awilson@abctech.com"

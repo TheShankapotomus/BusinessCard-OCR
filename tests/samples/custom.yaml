@@ -1,0 +1,40 @@
+Example1:
+    document: "Randy O'hare\n\
+               Software Developer\n\
+               703.890.9654\n\
+               randy.ohare@testco.org\n\
+               www.testco.io"
+
+    output:   "Name: Randy O'hare\n\
+               Phone: 7038909654\n\
+               Email: randy.ohare@testco.org"
+
+Example2:
+    document: "Terry Williams\n\
+               Senior Recruiter\n\
+               300 Automation Lane\n\
+               Suite 990\n\
+               Glen Burnie, MD 21060\n\
+               Direct: 304-586-5780\n\
+               Mobile: 703-926-5350\n\
+               Fax: 304-780-2324\n\
+               twilliams@salesforce.com\n\
+               www.salesforce.com"
+
+    output:  "Name: Terry Williams\n\
+              Phone: 7039265350\n\
+              Email: twilliams@salesforce.com"
+
+Example3:
+    document: "Take-a-Gander Technologies\n\
+               Chief Financial Officer\n\
+               Jerry Johnson\n\
+               23650 Sunrise Circle\n\
+               El Paso, TX 79835\n\
+               Phone: (915) 336-7878\n\
+               Fax: (915) 732-0347\n\
+               jerry.johnson@tagtech.net"
+
+    output:   "Name: Jerry Johnson\n\
+               Phone: 9153367878\n\
+               Email: jerry.johnson@tagtech.net"
