@@ -4,7 +4,6 @@ from re import compile
 class BusinessCardParser(object):
 
     def __init__(self):
-
         self._email_expr = compile(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
 
     def get_contact_info(self, document):
