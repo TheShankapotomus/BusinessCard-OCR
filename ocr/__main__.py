@@ -6,7 +6,7 @@ from tests import TestParser
 
 
 parser = ArgumentParser(description="Simple Business Card OCR")
-parser.add_argument("-d", help="pass the document string to be parsed", type=str, dest="document")
+parser.add_argument("-d", "--document", help="pass the document string to be parsed", type=str, dest="document")
 parser.add_argument("--test", action="store_true", default=False, help="run test cases")
 args = parser.parse_args()
 

@@ -26,7 +26,6 @@ class TestParser(unittest.TestCase):
         self._check_examples(f"{dirname(realpath(__file__))}/samples/custom.yaml")
 
     def _check_examples(self, file):
-
         with open(file, 'r') as f:
             examples = yaml.safe_load(f).values()
 

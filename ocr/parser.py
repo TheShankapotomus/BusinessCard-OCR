@@ -7,13 +7,11 @@ class BusinessCardParser(object):
         self._email_expr = compile(r"(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)")
 
     def get_contact_info(self, document):
-
         fields = self._filter_fields(document.split('\n'))
 
         return _ContactInfo(**fields)
 
     def _filter_fields(self, document):
-
         field_map = {k[2:]: None for k in _ContactInfo.__slots__}
 
         for line in document:
@@ -46,7 +44,6 @@ class _ContactInfo(object):
     __slots__ = ("__name", "__phone", "__email")
 
     def __init__(self, **kwargs):
-
         self.__name = kwargs["name"]
         self.__phone = kwargs["phone"]
         self.__email = kwargs["email"]
